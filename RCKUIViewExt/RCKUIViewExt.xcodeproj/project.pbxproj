@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52C6A4351E58284C0084E512 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C6A4341E58284C0084E512 /* main.m */; };
+		52C6A4381E58284C0084E512 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C6A4371E58284C0084E512 /* AppDelegate.m */; };
+		52C6A43B1E58284C0084E512 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C6A43A1E58284C0084E512 /* ViewController.m */; };
+		52C6A43E1E58284C0084E512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C6A43C1E58284C0084E512 /* Main.storyboard */; };
+		52C6A4401E58284C0084E512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C6A43F1E58284C0084E512 /* Assets.xcassets */; };
+		52C6A4431E58284C0084E512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C6A4411E58284C0084E512 /* LaunchScreen.storyboard */; };
+		52C6A44E1E58284C0084E512 /* RCKUIViewExtUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C6A44D1E58284C0084E512 /* RCKUIViewExtUITests.m */; };
+		52C6A45B1E5828F50084E512 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C6A45A1E5828F50084E512 /* UIViewExt.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52C6A44A1E58284C0084E512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52C6A4281E58284C0084E512 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52C6A42F1E58284C0084E512;
+			remoteInfo = RCKUIViewExt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52C6A4301E58284C0084E512 /* RCKUIViewExt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCKUIViewExt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C6A4341E58284C0084E512 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52C6A4361E58284C0084E512 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52C6A4371E58284C0084E512 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52C6A4391E58284C0084E512 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52C6A43A1E58284C0084E512 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52C6A43D1E58284C0084E512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52C6A43F1E58284C0084E512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52C6A4421E58284C0084E512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52C6A4441E58284C0084E512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52C6A4491E58284C0084E512 /* RCKUIViewExtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCKUIViewExtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C6A44D1E58284C0084E512 /* RCKUIViewExtUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCKUIViewExtUITests.m; sourceTree = "<group>"; };
+		52C6A44F1E58284C0084E512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52C6A4591E5828F50084E512 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		52C6A45A1E5828F50084E512 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52C6A42D1E58284C0084E512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C6A4461E58284C0084E512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52C6A4271E58284C0084E512 = {
+			isa = PBXGroup;
+			children = (
+				52C6A4321E58284C0084E512 /* RCKUIViewExt */,
+				52C6A44C1E58284C0084E512 /* RCKUIViewExtUITests */,
+				52C6A4311E58284C0084E512 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52C6A4311E58284C0084E512 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52C6A4301E58284C0084E512 /* RCKUIViewExt.app */,
+				52C6A4491E58284C0084E512 /* RCKUIViewExtUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52C6A4321E58284C0084E512 /* RCKUIViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				52C6A4581E5828B90084E512 /* UIViewExt */,
+				52C6A4361E58284C0084E512 /* AppDelegate.h */,
+				52C6A4371E58284C0084E512 /* AppDelegate.m */,
+				52C6A4391E58284C0084E512 /* ViewController.h */,
+				52C6A43A1E58284C0084E512 /* ViewController.m */,
+				52C6A43C1E58284C0084E512 /* Main.storyboard */,
+				52C6A43F1E58284C0084E512 /* Assets.xcassets */,
+				52C6A4411E58284C0084E512 /* LaunchScreen.storyboard */,
+				52C6A4441E58284C0084E512 /* Info.plist */,
+				52C6A4331E58284C0084E512 /* Supporting Files */,
+			);
+			path = RCKUIViewExt;
+			sourceTree = "<group>";
+		};
+		52C6A4331E58284C0084E512 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52C6A4341E58284C0084E512 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52C6A44C1E58284C0084E512 /* RCKUIViewExtUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52C6A44D1E58284C0084E512 /* RCKUIViewExtUITests.m */,
+				52C6A44F1E58284C0084E512 /* Info.plist */,
+			);
+			path = RCKUIViewExtUITests;
+			sourceTree = "<group>";
+		};
+		52C6A4581E5828B90084E512 /* UIViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				52C6A4591E5828F50084E512 /* UIViewExt.h */,
+				52C6A45A1E5828F50084E512 /* UIViewExt.m */,
+			);
+			name = UIViewExt;
+			path = ../../UIViewExt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52C6A42F1E58284C0084E512 /* RCKUIViewExt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C6A4521E58284C0084E512 /* Build configuration list for PBXNativeTarget "RCKUIViewExt" */;
+			buildPhases = (
+				52C6A42C1E58284C0084E512 /* Sources */,
+				52C6A42D1E58284C0084E512 /* Frameworks */,
+				52C6A42E1E58284C0084E512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCKUIViewExt;
+			productName = RCKUIViewExt;
+			productReference = 52C6A4301E58284C0084E512 /* RCKUIViewExt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52C6A4481E58284C0084E512 /* RCKUIViewExtUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C6A4551E58284C0084E512 /* Build configuration list for PBXNativeTarget "RCKUIViewExtUITests" */;
+			buildPhases = (
+				52C6A4451E58284C0084E512 /* Sources */,
+				52C6A4461E58284C0084E512 /* Frameworks */,
+				52C6A4471E58284C0084E512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52C6A44B1E58284C0084E512 /* PBXTargetDependency */,
+			);
+			name = RCKUIViewExtUITests;
+			productName = RCKUIViewExtUITests;
+			productReference = 52C6A4491E58284C0084E512 /* RCKUIViewExtUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52C6A4281E58284C0084E512 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = john;
+				TargetAttributes = {
+					52C6A42F1E58284C0084E512 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					52C6A4481E58284C0084E512 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52C6A42F1E58284C0084E512;
+					};
+				};
+			};
+			buildConfigurationList = 52C6A42B1E58284C0084E512 /* Build configuration list for PBXProject "RCKUIViewExt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52C6A4271E58284C0084E512;
+			productRefGroup = 52C6A4311E58284C0084E512 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52C6A42F1E58284C0084E512 /* RCKUIViewExt */,
+				52C6A4481E58284C0084E512 /* RCKUIViewExtUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52C6A42E1E58284C0084E512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C6A4431E58284C0084E512 /* LaunchScreen.storyboard in Resources */,
+				52C6A4401E58284C0084E512 /* Assets.xcassets in Resources */,
+				52C6A43E1E58284C0084E512 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C6A4471E58284C0084E512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52C6A42C1E58284C0084E512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C6A45B1E5828F50084E512 /* UIViewExt.m in Sources */,
+				52C6A43B1E58284C0084E512 /* ViewController.m in Sources */,
+				52C6A4381E58284C0084E512 /* AppDelegate.m in Sources */,
+				52C6A4351E58284C0084E512 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C6A4451E58284C0084E512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C6A44E1E58284C0084E512 /* RCKUIViewExtUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52C6A44B1E58284C0084E512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52C6A42F1E58284C0084E512 /* RCKUIViewExt */;
+			targetProxy = 52C6A44A1E58284C0084E512 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52C6A43C1E58284C0084E512 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52C6A43D1E58284C0084E512 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52C6A4411E58284C0084E512 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52C6A4421E58284C0084E512 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52C6A4501E58284C0084E512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52C6A4511E58284C0084E512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52C6A4531E58284C0084E512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RCKUIViewExt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiXiangKeJi.RCKUIViewExt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52C6A4541E58284C0084E512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RCKUIViewExt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiXiangKeJi.RCKUIViewExt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52C6A4561E58284C0084E512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RCKUIViewExtUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiXiangKeJi.RCKUIViewExtUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RCKUIViewExt;
+			};
+			name = Debug;
+		};
+		52C6A4571E58284C0084E512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RCKUIViewExtUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiXiangKeJi.RCKUIViewExtUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RCKUIViewExt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52C6A42B1E58284C0084E512 /* Build configuration list for PBXProject "RCKUIViewExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C6A4501E58284C0084E512 /* Debug */,
+				52C6A4511E58284C0084E512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52C6A4521E58284C0084E512 /* Build configuration list for PBXNativeTarget "RCKUIViewExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C6A4531E58284C0084E512 /* Debug */,
+				52C6A4541E58284C0084E512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52C6A4551E58284C0084E512 /* Build configuration list for PBXNativeTarget "RCKUIViewExtUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C6A4561E58284C0084E512 /* Debug */,
+				52C6A4571E58284C0084E512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52C6A4281E58284C0084E512 /* Project object */;
+}
