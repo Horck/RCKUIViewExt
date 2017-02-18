@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RCKUIViewExt"
-  s.version      = "0.1"
+  s.version      = "0.2"
   s.summary      = "RCKUIViewExt."
 
   s.description  = <<-DESC
