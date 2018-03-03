@@ -174,7 +174,7 @@
 				TargetAttributes = {
 					52C6A42F1E58284C0084E512 = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					52C6A4481E58284C0084E512 = {
 						CreatedOnToolsVersion = 8.1;
@@ -364,10 +364,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RCKUIViewExt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jiXiangKeJi.RCKUIViewExt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.renjie.autoAppTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -375,10 +378,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RCKUIViewExt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jiXiangKeJi.RCKUIViewExt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.renjie.autoAppTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -423,6 +429,7 @@
 				52C6A4541E58284C0084E512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52C6A4551E58284C0084E512 /* Build configuration list for PBXNativeTarget "RCKUIViewExtUITests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +438,7 @@
 				52C6A4571E58284C0084E512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
